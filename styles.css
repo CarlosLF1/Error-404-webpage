@@ -6,8 +6,7 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #d4C9B8;
+  --first-color: #10CCB3;
   --text-color: #161513;
 
   /*========== Font and typography ==========*/
@@ -171,15 +170,16 @@ img {
 .home__button {
     margin-top: 2rem;
     display: inline-block;
-    background-color: #10CCb3;
-    color: #fff;
+    background-color: #403C43;
+    color: #FCF5EB;
     padding: .80rem 1.5rem;
     border-radius: 8px;
     transition: .4s;
 }
 
 .home__button:hover {
-    box-shadow: 0 12px 20px hsla(38, 69%, 8%, .2);
+    /* box-shadow: 0 12px 20px hsla(38, 69%, 8%, .2); */
+    filter:drop-shadow(2px 10px 25px #ffffff);
 }
 
 .home__img img {
